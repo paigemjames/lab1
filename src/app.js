@@ -10,7 +10,7 @@ app.set('view engine', 'hbs');
 
 
 app.get('/', function (req, res) {
-    res.render('index', {
+    res.render('home', {
       title: "Home",
       name: "Paige"
     });
