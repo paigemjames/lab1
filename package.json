@@ -2,7 +2,7 @@
   "name": "lab1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/app.js -e js, hbs"
@@ -11,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "hbs": "^4.2.0",
+    "express-ejs-layouts": "^2.5.1",
     "nodemon": "^3.0.1"
   }
 }
