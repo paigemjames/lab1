@@ -12,7 +12,9 @@
     border: 2px solid #f9f5f0;
     border-radius: 8px;
     padding: 5px;
-    background-image: url('images/banner-background.png');
+    background-image: url('/images/banner-background.png');
+    background-repeat: no-repeat; 
+    background-color: #f9f5f0;
     font-family: Garamond, serif;
 
 }
@@ -42,6 +44,12 @@
 }
 
 /*-----------Body containers--------*/
+body{
+    background-image: url('images/background.png'); 
+    font-family: Garamond, serif;
+    background-size:auto;
+    background-color: #f9f5f0;
+}
 .centeredform {
     position: absolute;
     left: 20%;
@@ -116,7 +124,7 @@ h2 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #f9f5f0;
+    background: rgba(76, 175, 80, 0);
     color: black;
     text-align: center;
 }
