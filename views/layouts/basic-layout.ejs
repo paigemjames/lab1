@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <header>
-    <%- include('../partials/header.ejs')  %>
+    <%- include('../partials/header.ejs') %>
 </header>
 
 
 <body>
-    <%- body %>
+    <%- include('../partials/content.ejs') %>
 </body>
-<footer>
-<div class="footer">
-    <hr>
-    Website design by Paige James for COMP 229
-</div>
-</footer>
-</html>
 
-<!--
-    style = "background-image: url('images/background.png'); font-family: Garamond, serif;"
--->
+
+<footer>
+    <%- include('../partials/footer.ejs') %>
+</footer>
+
+</html>
